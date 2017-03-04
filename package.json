@@ -6,10 +6,12 @@
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
     "start": "node .",
-    "test": "standard && npm run deps && nyc node test.js",
+    "test": "standard && npm run deps",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nanomorph": "^3.0.0"
+  },
   "devDependencies": {
     "dependency-check": "^2.8.0",
     "nyc": "^10.1.2",
