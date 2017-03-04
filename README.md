@@ -19,7 +19,7 @@ nanomount(document.body, tree)
 ```
 
 ## API
-### nanomount(targetNode, newNode)
+### `nanomount(targetNode, newNode)`
 Mount a DOM tree on target node.
 
 ## License
