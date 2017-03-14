@@ -10,7 +10,7 @@
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
   },
   "dependencies": {
-    "nanomorph": "^3.0.0"
+    "nanomorph": "^4.0.0"
   },
   "devDependencies": {
     "dependency-check": "^2.8.0",
