@@ -2,7 +2,7 @@
   "name": "nanomount",
   "description": "Mount a DOM tree on a target node",
   "repository": "yoshuawuyts/nanomount",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
     "start": "node .",
